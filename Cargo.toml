@@ -1,0 +1,13 @@
+[package]
+name = "code_pen_demo"
+version = "0.1.0"
+authors = ["saranahluwalia"]
+
+
+[dependencies]
+glium = "*"
+image = "*"
+genmesh = "*"
+obj = { version = "0.5", features = ["usegenmesh"] }
+glutin = "*"
+rand = "*"
